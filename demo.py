@@ -12,4 +12,4 @@ targetNode = graph.node(target)
 graph.edge(source, target)
 
 graph.edge(target, source)
-graph.render("./text.svg")
+graph.render("./a")
