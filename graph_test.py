@@ -1,9 +1,18 @@
 import unittest
 
 from graph import  Graph
+import graphviz as gv
+
 
 class MyTestCase(unittest.TestCase):
 
+
+    def test_peripheries(self):
+        g = gv.Digraph(format='svg')
+
+        g.node("a",peripheries="2")
+
+        g.render("./test_peripheries")
 
     def test_graph(self):
         graph = Graph()

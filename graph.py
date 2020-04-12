@@ -18,6 +18,7 @@ class Graph():
             self.node.add(a)
             self.graph.node(a)
 
+            self.graph.node()
         if b not in self.node:
             self.node.add(b)
             self.graph.node(b)
