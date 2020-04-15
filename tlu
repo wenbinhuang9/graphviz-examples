@@ -1,0 +1,12 @@
+digraph {
+	rankdir=LR
+	-0.5 [shape=circle]
+	x1 [shape=plaintext width=.0]
+	x1 -> -0.5 [label=-1 shape=circle]
+	x2 [shape=plaintext width=.0]
+	x2 -> -0.5 [label=-1 shape=circle]
+	x3 [shape=plaintext width=.0]
+	x3 -> -0.5 [label=10 shape=circle]
+	y [shape=plaintext width=.0]
+	-0.5 -> y
+}
